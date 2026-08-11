@@ -23,3 +23,35 @@ int main(void) {
     printf("%d", max*min);
     
     return 0;
+}
+
+
+// 최적
+// #include <stdio.h>
+
+// int main(void) {
+//     int n;
+//     int x, min, max;
+
+//     scanf("%d", &n);
+
+//     scanf("%d", &x);
+//     min = x;
+//     max = x;
+
+//     for (int i = 1; i < n; i++) {
+//         scanf("%d", &x);
+
+//         if (x < min) {
+//             min = x;
+//         }
+
+//         if (x > max) {
+//             max = x;
+//         }
+//     }
+
+//     printf("%d", min * max);
+
+//     return 0;
+// }
